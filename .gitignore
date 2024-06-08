@@ -2,14 +2,13 @@
 data/logs/
 data/*.log
 data/templog.txt
+crash-reports/
 
 # MC World
 data/world/
+data/simplebackups/
 
-# Forge Stuff
-.env
-data/.forge*
-data/.install-curseforge.env
+# Generated Files
 data/libraries/
 data/local/
 data/mods/
@@ -18,4 +17,14 @@ data/.cache/
 data/kubejs/
 data/ldlib/
 data/packmenu/
+data/resourcepacks/
+data/resources/
+data/.rcon-cli.*
 
+# Forge Stuff
+data/.forge*
+data/.curseforge-manifest.json
+data/.install-curseforge.env
+
+# Sensitive Data
+.env
