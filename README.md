@@ -18,6 +18,12 @@ docker compose up -d
 docker compose ps
 ```
 
+### Check Logs
+
+```pwsh
+docker compose logs -f
+```
+
 ### Join RCON
 
 ```pwsh
