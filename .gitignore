@@ -20,6 +20,7 @@ data/packmenu/
 data/resourcepacks/
 data/resources/
 data/.rcon-cli.*
+**.tmp
 
 # Forge Stuff
 data/.forge*
