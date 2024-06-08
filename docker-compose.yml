@@ -1,0 +1,40 @@
+services:
+  atm-server:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "40232:25565"
+    environment:
+      # General
+      UID: 1001
+      GID: 1001
+      MEMORY: 12G
+
+      # Server
+      TYPE: AUTO_CURSEFORGE
+      EULA: TRUE
+      VERSION: 1.18.2
+      MOTD: "§2-=§c§l DeceasedCraft§2 =-§r
+
+        \    ᓚᘏᗢ    ಠ_ಠ"
+      DIFFICULTY: hard
+      ICON: "./CursedVillager.png"
+      SPAWN_PROTECTION: 0
+      EXEC_DIRECTLY: true
+
+      # RCON
+      ENABLE_RCON: true
+      RCON_PORT: 25575
+      RCON_PASSWORD: "password"
+
+      # CurseForge
+      CF_API_KEY: ${CF_API_KEY}
+      CF_SLUG: deceasedcraft
+      CF_FILENAME_MATCHER: 5.5.4
+
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      - ./data:/data
+      # Downloads used for manual mod downloads
+      - ./downloads:/downloads

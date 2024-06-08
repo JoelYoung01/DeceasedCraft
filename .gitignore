@@ -1,0 +1,21 @@
+# Logs
+data/logs/
+data/*.log
+data/templog.txt
+
+# MC World
+data/world/
+
+# Forge Stuff
+.env
+data/.forge*
+data/.install-curseforge.env
+data/libraries/
+data/local/
+data/mods/
+data/saves/
+data/.cache/
+data/kubejs/
+data/ldlib/
+data/packmenu/
+
