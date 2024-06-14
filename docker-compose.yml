@@ -5,7 +5,8 @@ services:
     tty: true
     stdin_open: true
     ports:
-      - "20432:25565"
+      - "20432:25565" # Main server port
+      - "20433:24454" # Voice chat port
     restart: unless-stopped
     environment:
       # General
