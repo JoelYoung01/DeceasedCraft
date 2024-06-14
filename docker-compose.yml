@@ -19,7 +19,7 @@ services:
       SERVER_NAME: "DeceasedCraft"
       TYPE: AUTO_CURSEFORGE
       EULA: TRUE
-      DIFFICULTY: hard
+      DIFFICULTY: normal
       ICON: "./CursedVillager.png"
       SPAWN_PROTECTION: 0
       VIEW_DISTANCE: 12
