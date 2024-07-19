@@ -41,7 +41,7 @@ services:
       # CurseForge
       CF_API_KEY: ${CF_API_KEY}
       CF_SLUG: deceasedcraft
-      CF_FILENAME_MATCHER: 5.5.4
+      CF_FILENAME_MATCHER: 5.5.5
       CF_EXCLUDE_MODS: true-darkness
 
     volumes:
