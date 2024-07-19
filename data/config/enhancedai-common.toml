@@ -503,7 +503,7 @@
 
 [Zombie]
 	#Zombies can mine blocks to reach the target. Uses offhand item to mine
-	"Enable Digger Zombie" = false
+	"Enable Digger Zombie" = true
 	#Let zombies use ender pearls. Either put ender pearls in main or off hand and when far enough from the player they will throw it.
 	"Enable Pearler Zombie" = true
 	#Let zombies use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the player they will throw it.
