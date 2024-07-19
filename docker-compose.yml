@@ -6,7 +6,7 @@ services:
     stdin_open: true
     ports:
       - "20432:25565" # Main server port
-      - "20433:24454" # Voice chat port
+      - "20433:20433/udp" # Voice chat port
     restart: unless-stopped
     environment:
       # General
